@@ -26,25 +26,24 @@ Techniques: GBDT, KMeans, VIF analysis, Target Encoding, Hyperparameter Tuning
 
 🔍 Core Features
 🎯 Superhost Prediction (GBDT)
-AUC-ROC Score: 0.986
-
-Precision/Recall: 94%
+>AUC-ROC Score: 0.986
+>Precision/Recall: 94%
 
 Top Predictors: numCancel_pastYear, rating_overall, occupancy_rate
 
 🌱 Growth Potential Index (GPI)
-Scores each listing from 0 (low growth) to 1 (high growth)
+>Scores each listing from 0 (low growth) to 1 (high growth)
 
-Combines Superhost probability, cluster insights, booking/revenue performance, and guest ratings
+>Combines Superhost probability, cluster insights, booking/revenue performance, and guest ratings
 
 🧩 Clustering Insights
-KMeans (k=4) segmentation using:
+>KMeans (k=4) segmentation using:
 
-Booking-to-revenue ratio
+>Booking-to-revenue ratio
 
-Superhost density
+>Superhost density
 
-Occupancy rate
+>Occupancy rate
 
 Result: Clear High, Moderate, and Low Growth clusters
 
@@ -61,20 +60,16 @@ Result: Clear High, Moderate, and Low Growth clusters
 ├── requirements.txt                  # Package dependencies
 └── README.md                         # Project documentation
 
-🚀 Getting Started
 
-git clone https://github.com/yourusername/airbnb-host-coach.git
-cd airbnb-host-coach
-jupyter notebook Airbnb_687_team_project.ipynb
 
 📈 Future Enhancements
-🤖 GenAI Integration: Build a chatbot to coach hosts in real-time
+>🤖 GenAI Integration: Build a chatbot to coach hosts in real-time
 
-🌍 City Expansion: Extend support beyond Chicago
+>🌍 City Expansion: Extend support beyond Chicago
 
-📊 Interactive Dashboard: Deploy using Streamlit for host-friendly insights
+>📊 Interactive Dashboard: Deploy using Streamlit for host-friendly insights
 
 👥 Contributors
-Harshal Amin
-Yash Kothari
+>Harshal Amin
+>Yash Kothari
 
