@@ -1,51 +1,44 @@
 🏠 Airbnb Host Coach: From Host to Superhost using AI
-An AI-powered recommendation system to help Airbnb hosts achieve Superhost status and maximize revenue. Combines Gradient Boosted Decision Trees, KMeans Clustering, and a custom Growth Potential Index (GPI) to provide personalized, data-driven recommendations. Built using Python and designed for future integration with GenAI-based coaching.
+An AI-powered recommendation system that helps Airbnb hosts achieve Superhost status and maximize revenue.
+This project combines predictive modeling, clustering, and a custom Growth Potential Index (GPI) to provide personalized, data-driven insights for Airbnb hosts. Built in Python, it’s designed for future integration with GenAI-based coaching tools.
 
-📌 Executive Summary
-Airbnb faces market imbalances due to underperforming hosts and a lack of growth visibility across neighborhoods. This project solves that by:
+🧩 Overview
+Problem:
+Many Airbnb hosts struggle to achieve Superhost status or optimize revenue due to a lack of actionable insights.
 
-Predicting Superhost probability using 25+ listing-level variables.
+Solution:
+The Airbnb Host Coach addresses this by:
 
-Segmenting hosts into data-driven clusters.
+>Predicting Superhost probability using Gradient Boosted Decision Trees (GBDT).
 
-Scoring each host/property using a Growth Potential Index (GPI).
+>Segmenting listings using KMeans Clustering.
 
-Offering personalized strategies for revenue optimization and guest satisfaction.
+>Scoring each host using a unified Growth Potential Index (GPI).
+
+>Delivering personalized recommendations to boost performance and earnings.
 
 🧪 Tech Stack
-Python (Pandas, Scikit-learn, XGBoost)
+Languages & Tools: Python, Jupyter Notebook
 
-Clustering (KMeans, Elbow Method)
+Libraries: Scikit-learn, XGBoost, Pandas, SMOTE, Matplotlib
 
-SMOTE (oversampling)
+Techniques: GBDT, KMeans, VIF analysis, Target Encoding, Hyperparameter Tuning
 
-Feature Engineering & Target Encoding
+🔍 Core Features
+🎯 Superhost Prediction (GBDT)
+AUC-ROC Score: 0.986
 
-AUC-ROC, Precision-Recall, and VIF analysis
+Precision/Recall: 94%
 
-Jupyter Notebook
+Top Predictors: numCancel_pastYear, rating_overall, occupancy_rate
 
-📊 Key Components
-✅ Superhost Prediction (GBDT)
-AUC-ROC: 0.986
+🌱 Growth Potential Index (GPI)
+Scores each listing from 0 (low growth) to 1 (high growth)
 
-Precision & Recall: 94%
+Combines Superhost probability, cluster insights, booking/revenue performance, and guest ratings
 
-Top Features: numCancel_pastYear, rating_overall, occupancy_rate
-
-📈 Growth Potential Index (GPI)
-A normalized score from 0 to 1 combining:
-
-Superhost prediction
-
-Cluster performance
-
-Booking/revenue ratio
-
-Guest ratings
-
-📍 Clustering Analysis
-Used KMeans (k=4) with features like:
+🧩 Clustering Insights
+KMeans (k=4) segmentation using:
 
 Booking-to-revenue ratio
 
@@ -53,46 +46,35 @@ Superhost density
 
 Occupancy rate
 
-Resulted in:
+Result: Clear High, Moderate, and Low Growth clusters
 
-High-Growth
+💡 Sample Insight Cards
+Example 1: “Your property has a GPI of 0.83 — focus on increasing 5-star reviews and consider adjusting pricing during peak demand.”
+Example 2: “Cluster 2 hosts have high occupancy but underperform on revenue. Optimize your booking-to-revenue ratio.”
 
-Moderate-Growth
-
-Low-Growth clusters
-
-🔍 Sample Insights
-“Your property has a GPI of 0.83 (High-Growth). Focus on increasing 5-star reviews and raise nightly rates during peak demand.”
-
-“Cluster 2 hosts show high occupancy but low rates. Optimize pricing to increase revenue.”
-
-📂 Project Structure
-graphql
-Copy
-Edit
+📁 Project Structure
 .
 ├── Airbnb_687_team_project.ipynb     # Full codebase: EDA + modeling
 ├── data/                             # Airbnb Chicago dataset
-├── visuals/                          # Charts and plots
-├── models/                           # Trained model objects
-├── README.md                         # This file
-└── requirements.txt                  # Python packages used
-🚀 How to Use
-bash
-Copy
-Edit
+├── visuals/                          # Plots and graphics
+├── models/                           # Saved model objects
+├── requirements.txt                  # Package dependencies
+└── README.md                         # Project documentation
+
+🚀 Getting Started
+
 git clone https://github.com/yourusername/airbnb-host-coach.git
 cd airbnb-host-coach
 jupyter notebook Airbnb_687_team_project.ipynb
-🧭 Future Roadmap
-🔗 GenAI Integration: Real-time host coaching via chat interface
 
-🌍 Scalability: Adapt to multiple cities beyond Chicago
+📈 Future Enhancements
+🤖 GenAI Integration: Build a chatbot to coach hosts in real-time
 
-📊 Deployment: Build Streamlit dashboard for host-level insights
+🌍 City Expansion: Extend support beyond Chicago
+
+📊 Interactive Dashboard: Deploy using Streamlit for host-friendly insights
 
 👥 Contributors
-Harshal Amin | LinkedIn | GitHub
-
+Harshal Amin
 Yash Kothari
 
