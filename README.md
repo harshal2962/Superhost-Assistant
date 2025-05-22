@@ -49,8 +49,8 @@ Occupancy rate
 Result: Clear High, Moderate, and Low Growth clusters
 
 💡 Sample Insight Cards
-Example 1: “Your property has a GPI of 0.83 — focus on increasing 5-star reviews and consider adjusting pricing during peak demand.”
-Example 2: “Cluster 2 hosts have high occupancy but underperform on revenue. Optimize your booking-to-revenue ratio.”
+>Example 1: “Your property has a GPI of 0.83 — focus on increasing 5-star reviews and consider adjusting pricing during peak demand.”
+>Example 2: “Cluster 2 hosts have high occupancy but underperform on revenue. Optimize your booking-to-revenue ratio.”
 
 📁 Project Structure
 .
