@@ -1,4 +1,5 @@
-🏠 Airbnb Host Coach: From Host to Superhost using AI
+🏠 Airbnb Host Coach: From Host to Superhost using AI-
+
 An AI-powered recommendation system that helps Airbnb hosts achieve Superhost status and maximize revenue.
 This project combines predictive modeling, clustering, and a custom Growth Potential Index (GPI) to provide personalized, data-driven insights for Airbnb hosts. Built in Python, it’s designed for future integration with GenAI-based coaching tools.
 
